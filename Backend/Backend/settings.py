@@ -55,8 +55,7 @@ ROOT_URLCONF = 'Backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'C:/Users/kunjd/OneDrive/Desktop/Car_Showroom/car_showroom/public')],
-        # C:\Users\kunjd\OneDrive\Desktop\Car_Showroom\car_showroom\public\index.html
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,7 +123,3 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-STATICFILES_DIRs = [
-    os.path.join(BASE_DIR,'car_showroom/public/static')
-]
