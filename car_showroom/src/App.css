@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.mainnav{
+  .navbar-collapse{
+    flex-grow: unset !important;
+  }
+  font-size: larger;
+  max-height: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  .login{
+    text-decoration: none;
+    padding-left: 5px;
+  }
+  .searchbutton{
+    background-color: black;
+    color: white;
+  }
+  .usericon{
+    font-size: 22px;
+  }
+}
+
+
