@@ -13,6 +13,7 @@ function NavScrollExample() {
         <Navbar.Brand href="#">CarJovo</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
+          <div></div>
           <Form className='d-flex'>
             <Form.Control
               type="search"
