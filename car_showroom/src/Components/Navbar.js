@@ -19,6 +19,7 @@ function NavScrollExample() {
           <Col lg={12} md={12} xl={12}>
           <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
+          <div></div>
           <Form className='d-flex'>
             <Form.Control
               type="search"
