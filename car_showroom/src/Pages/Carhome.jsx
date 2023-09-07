@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../Components/Header";
 
 function Carhome() {
   return (
     <div>
-        This is Car home Page
+    <Header/>
     </div>
-  )
+  );
 }
 
-export default Carhome
+export default Carhome;

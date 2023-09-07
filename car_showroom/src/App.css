@@ -39,10 +39,12 @@
 
 
 
-.mainnav{
+.mainnav1{
   /* justify-content: space-between; */
   font-size: larger;
-  max-height: 80px;
+  margin-top: 10px;
+  /* height: 50px;
+  max-height: 80px; */
   padding-left: 50px;
   padding-right: 50px;
   .login{
@@ -50,6 +52,27 @@
     padding-left: 5px;
   }
   .searchbutton{
+    background-color: black;
+    color: white;
+  }
+  .usericon{
+    font-size: 22px;
+  }
+}
+.box1{
+  justify-content: space-between;
+  font-size: larger;
+  margin-top: 0px;
+  /* max-height: 80px; */
+  padding-left: 30px;
+  /* color: #36486b; */
+  padding-right: 50px;
+  .login{
+    text-decoration: none;
+    padding-left: 5px;
+  }
+  .searchbutton{
+    /* background-color: black; */
     background-color: black;
     color: white;
   }

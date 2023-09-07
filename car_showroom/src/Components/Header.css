@@ -1,0 +1,66 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #f4f4f4; /* Background color for the whole page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Carousel styles */
+.carousel {
+  width: 90%; /* Set the width of the carousel to 96% */
+  max-width: 1440px; /* Adjust as needed */
+  min-height: 35rem; /* Minimum height for the carousel */
+  max-height: 35rem; /* Maximum height for the carousel */
+  margin: 0 auto; /* Center the carousel horizontally with margins on both sides */
+  background-color: #333; /* Background color for the carousel */
+  margin-bottom: 5px; /* Margin at the bottom of the carousel */
+}
+.carousel.carousel-slider {
+  position: relative;
+  margin: 10px auto;
+  overflow: hidden;
+  width: 90%;
+  height:auto;
+  
+}
+
+.carousel .slide {
+  /* ... Other styles ... */
+}
+
+.carousel .slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* Stretch the image to cover the entire slide */
+}
+
+.carousel .slide .carousel-text {
+  text-align: center; /* Center align text within the slide */
+  padding: 20px; /* Padding around each slide */
+}
+
+.carousel .slide .carousel-title {
+  font-size: 24px; /* Title font size */
+  margin-bottom: 10px; /* Spacing below the title */
+  color: #fff; /* Text color for the title */
+}
+
+.carousel .slide .carousel-description {
+  font-size: 16px; /* Description font size */
+  color: #fff; /* Text color for the description */
+}
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+  .carousel {
+    width: 90%; /* Full width for mobile devices */
+    max-width: none; /* Remove max-width for mobile devices */
+  }
+}
