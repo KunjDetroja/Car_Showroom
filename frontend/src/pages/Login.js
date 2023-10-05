@@ -31,7 +31,7 @@ function Login() {
                 </Col>
                 <Col lg={8} className='text-left p-5'>
                     <Form layout='vertical' className='login-form p-5' onFinish={onFinish}>
-                    <h1 className='login-logo'>CarDekho</h1>
+                    <h1 className='login-logo'>CarJovo</h1>
                          <h1>Login</h1>
                          <hr />
                          <Form.Item name='username' label='Username' rules={[{required: true}]}>
