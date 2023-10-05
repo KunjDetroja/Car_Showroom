@@ -29,9 +29,6 @@ function AdminHome() {
         <Col lg={20} sm={24}>
           <div className="d-flex justify-content-between align-items-center">
             <h3 className="mt-1 mr-2">Admin Panel</h3>
-            <button className="btn1">
-              <Link to="/addcar">ADD CAR</Link>
-            </button>
           </div>
         </Col>
       </Row>
@@ -47,12 +44,13 @@ function AdminHome() {
 
                 <div className="car-content d-flex align-items-center justify-content-between">
                   <div className="text-left pl-2">
+                    <p>{car.Make}</p>
                     <p>{car.Model}</p>
                     <p>{car.Price} /-</p>
                   </div>
 
                   <div className="mr-4">
-                    <Link to={`/editcar/${car._id}`}>
+                    <Link to={`/carinfo/${car._id}`}>
                       <EditOutlined
                         className="mr-3"
                         style={{ color: "green", cursor: "pointer" }}

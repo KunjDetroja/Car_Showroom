@@ -6,8 +6,8 @@
 }
 
 .headerContainer {
-    width: 100%;
-    max-width: 1024px;
+    /* width: 100%;
+    max-width: 1024px; */
     margin: 20px 0px 20px 0px;
 
 }
@@ -73,7 +73,7 @@
     background-color: #ff8f44;
     margin-top: 20px;
     box-shadow: 1px 1px 5px 1px black;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 5px;
 }
 

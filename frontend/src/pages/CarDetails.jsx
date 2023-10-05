@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+// import "../components/defaultlayout.css"
 
 const CarDetailsCard = ({ car }) => {
   return (

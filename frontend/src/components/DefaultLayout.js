@@ -21,14 +21,6 @@ function DefaultLayout(props) {
       <Menu.Item>
         <Link
 
-          to="/userbookings"
-        >
-          Bookings
-        </Link>
-      </Menu.Item>
-      <Menu.Item>
-        <Link
-
           to="/admin"
         >
           Admin
@@ -47,7 +39,7 @@ function DefaultLayout(props) {
       <div className='navbar'>
         <div className='navcontainer'>
 
-          <span className='logo'> <FontAwesomeIcon icon={faCar} />  CarJovo</span>
+          <span className='logo'><Link to='/'> <FontAwesomeIcon icon={faCar} />  CarJovo </Link></span>
           <div className='navItems'>
             <Dropdown overlay={menu} placement="bottomCenter">
               <button className="signin">{user.username}</button>

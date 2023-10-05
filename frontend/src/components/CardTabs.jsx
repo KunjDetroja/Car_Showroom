@@ -1,4 +1,5 @@
 import { Tabs, theme ,Card} from "antd";
+import '../components/defaultlayout.css'
 import CarDetailsCard from "../pages/CarDetails";
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
